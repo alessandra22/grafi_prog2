@@ -61,7 +61,7 @@ void add(graph &g, int u, int v, float w, bool d){
   add_edge(g,u,v,w);
 }
 
-graph g_build(ifstream &g, bool w, bool d){
+graph g_build(ifstream &g, bool d, bool w){
   int n;
   g>>n;
   graph G = new_graph(n);
