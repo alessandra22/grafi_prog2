@@ -47,7 +47,7 @@ adj_list get_adjlist(graph g, int u){
 }
  
 int get_adjnode(adj_list l){ 
-  return l->node; 
+  return l->node+1; 
 } 
  
 adj_list get_nextadj(adj_node *n){ 
